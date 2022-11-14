@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Car">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="CarBody" ManuallyRouted="true">
+      <Path>
+        <Point X="1.5" Y="3.25" />
+        <Point X="1.5" Y="3.109" />
+        <Point X="4" Y="3.109" />
+        <Point X="4" Y="2.828" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="Color">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.058" Y="0.341" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="Engine" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="3.5" />
+        <Point X="7.5" Y="3.067" />
+        <Point X="4" Y="3.067" />
+        <Point X="4" Y="2.828" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.638" Y="0.068" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAABABAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarBody">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAACAQAAABAAAQEBAABQAAAAABIAAAEAAQAQ=</HashCode>
+      <FileName>CarBody.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Color">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAIAAAAAAAAAAAAAAAQAACAAAgAgAAAAAA=</HashCode>
+      <FileName>Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAQAAAQAAAAAAAAAECAACQGQBAAAAACAAAA=</HashCode>
+      <FileName>Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
